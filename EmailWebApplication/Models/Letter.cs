@@ -1,7 +1,7 @@
 using System;
 using System.Data.Entity;
 
-namespace EmailManagementWeb.Models
+namespace EmailWebApplication.Models
 {
     public class Letter
     {

@@ -5,6 +5,7 @@
     <projectFile profileName="http">EmailManagement/EmailManagement.csproj</projectFile>
     <projectFile profileName="https">EmailManagement/EmailManagement.csproj</projectFile>
     <projectFile>EmailManagementWeb/EmailManagementWeb.csproj</projectFile>
+    <projectFile>EmailWebApplication/EmailWebApplication.csproj</projectFile>
     <projectFile>test_csharp_docsVision/test_csharp_docsVision.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
@@ -13,20 +14,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1328fcc1-e8ac-46ca-89a6-7084382a786e" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/EmailManagementWeb/App_Start/WebApiConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmailManagementWeb/Models/Letter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmailWebApplication/App_Start/WebApiConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmailWebApplication/Controllers/LettersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmailWebApplication/Models/Letter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.test_csharp_docsVision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.test_csharp_docsVision/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagementWeb/EmailManagementWeb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmailManagementWeb/EmailManagementWeb.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagementWeb/Global.asax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmailManagementWeb/Global.asax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagementWeb/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/EmailManagementWeb/Web.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_csharp_docsVision.sln" beforeDir="false" afterPath="$PROJECT_DIR$/test_csharp_docsVision.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_csharp_docsVision/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/EmailClient/App.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_csharp_docsVision/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmailClient/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_csharp_docsVision/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmailClient/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_csharp_docsVision/Properties/Resources.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmailClient/Properties/Resources.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_csharp_docsVision/Properties/Resources.resx" beforeDir="false" afterPath="$PROJECT_DIR$/EmailClient/Properties/Resources.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_csharp_docsVision/Properties/Settings.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmailClient/Properties/Settings.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_csharp_docsVision/Properties/Settings.settings" beforeDir="false" afterPath="$PROJECT_DIR$/EmailClient/Properties/Settings.settings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_csharp_docsVision/SendEmailForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmailClient/SendEmailForm.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_csharp_docsVision/SendEmailForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmailClient/SendEmailForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_csharp_docsVision/SendEmailForm.resx" beforeDir="false" afterPath="$PROJECT_DIR$/EmailClient/SendEmailForm.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_csharp_docsVision/test_csharp_docsVision.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmailClient/EmailClient.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +49,7 @@
   "keyToString": {
     ".NET Project.EmailClient.executor": "Run",
     ".NET Project.EmailManagementWeb - IIS Express.executor": "Run",
+    ".NET Project.EmailWebApplication - IIS Express.executor": "Run",
     ".NET Project.test_csharp_docsVision.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -74,7 +70,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.EmailManagementWeb - IIS Express">
+  <component name="RunManager" selected=".NET Project.EmailWebApplication - IIS Express">
     <configuration name="EmailClient" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/EmailClient/bin/Debug/EmailClient.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -112,7 +108,27 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="EmailWebApplication - IIS Express" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/EmailWebApplication/EmailWebApplication.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Web" />
+      <option name="PROJECT_TFM" value="" />
+      <browser url="http://localhost:5000/" start="true" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue=".NET Project.EmailWebApplication - IIS Express" />
       <item itemvalue=".NET Project.EmailManagementWeb - IIS Express" />
       <item itemvalue=".NET Project.EmailClient" />
     </list>
@@ -126,7 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709635796008</updated>
       <workItem from="1709635797359" duration="4366000" />
-      <workItem from="1709800505217" duration="4854000" />
+      <workItem from="1709800505217" duration="6622000" />
     </task>
     <servers />
   </component>

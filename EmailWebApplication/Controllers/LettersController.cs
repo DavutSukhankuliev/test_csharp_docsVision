@@ -1,8 +1,8 @@
 ﻿using System.Data.SqlClient;
 using System.Web.Http;
-using EmailManagementWeb.Models;
+using EmailWebApplication.Models;
 
-namespace EmailManagementWeb.Controllers
+namespace EmailWebApplication.Controllers
 {
     public class LettersController : ApiController
     {
