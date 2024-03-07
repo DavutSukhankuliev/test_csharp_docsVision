@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace test_csharp_docsVision
+namespace EmailClient
 {
     public partial class SendEmailForm : Form
     {

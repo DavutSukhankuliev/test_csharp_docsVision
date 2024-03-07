@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace test_csharp_docsVision.Properties
+namespace EmailClient.Properties
 {
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
@@ -45,7 +45,7 @@ namespace test_csharp_docsVision.Properties
                 if ((resourceMan == null))
                 {
                     global::System.Resources.ResourceManager temp =
-                        new global::System.Resources.ResourceManager("test_csharp_docsVision.Properties.Resources",
+                        new global::System.Resources.ResourceManager("EmailClient.Properties.Resources",
                             typeof(Resources).Assembly);
                     resourceMan = temp;
                 }

@@ -1,4 +1,4 @@
-﻿namespace test_csharp_docsVision
+﻿namespace EmailClient
 {
     partial class SendEmailForm
     {

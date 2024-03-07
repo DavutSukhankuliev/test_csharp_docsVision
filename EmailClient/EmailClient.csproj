@@ -6,8 +6,8 @@
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
         <ProjectGuid>{E8FB378E-F39A-481C-921B-504A42898239}</ProjectGuid>
         <OutputType>WinExe</OutputType>
-        <RootNamespace>test_csharp_docsVision</RootNamespace>
-        <AssemblyName>test_csharp_docsVision</AssemblyName>
+        <RootNamespace>EmailClient</RootNamespace>
+        <AssemblyName>EmailClient</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
